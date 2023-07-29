@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <h1>Alarm Clock</h1>
+        <div class="clock">
+           <img id="image" src="https://cdn.dribbble.com/users/4279575/screenshots/13115064/media/23577590507fbc62e2677195285fa14a.gif" alt="clock">
+          </div>
+        <label for="alarmTime" id="set">Set Alarm Time: </label>
+        <input type="time" id="alarmTime">
+        <button onclick="setAlarm()" class="button">Set Alarm</button>
+        <button onclick="stopAlarm()" class="button">Stop Alarm</button>
+         <div id="timer"></div>
+      <audio id="alarmSound">
+        <source src="C:\Users\awsmg\OneDrive\Desktop\FrontendskillTestProject\MajorProject1AlarmClock\Tum-Prem-Ho-Radhe(PaglaSongs).mp3" type="audio/mpeg"/></audio>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
